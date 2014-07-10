@@ -142,21 +142,28 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *cellIndetifier=@"Cell";
-    UITableViewCell *cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIndetifier];
+   // UITableViewCell *cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIndetifier];
+    RCSCustonCell *custonCell=[[RCSCustonCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIndetifier];
     
-    if (cell==nil)
+    
+  //  if (cell==nil)
+        if(custonCell==nil)
     {
-        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIndetifier];
+       // cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIndetifier];
+        
+        custonCell=[[RCSCustonCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIndetifier];
+
         
     }
     
-    cell.textLabel.text=[self.numbers objectAtIndex:indexPath.row];
-   
-    //Adicionado imagem em cada celula
-    [cell.imageView setImage:[_imagens objectAtIndex:(indexPath.item%2)]];
+//    cell.textLabel.text=[self.numbers objectAtIndex:indexPath.row];
+//   
+//    //Adicionado imagem em cada celula
+//    [cell.imageView setImage:[_imagens objectAtIndex:(indexPath.item%2)]];
+//    
     
-    
-    return cell;
+    return custonCell;
+    //return cell;
     
 }
 

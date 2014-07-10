@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RCSCustonCell.h"
+
 
 @interface RCSViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UIAlertViewDelegate>
+
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
 @property(strong,nonatomic) NSMutableArray *numbers;
 @property (strong,nonatomic)NSMutableArray *imagens;
 @property(strong,nonatomic) UIRefreshControl *refresh;
+
+@property (weak, nonatomic) IBOutlet UITableViewCell *custonCell;
+
 @end

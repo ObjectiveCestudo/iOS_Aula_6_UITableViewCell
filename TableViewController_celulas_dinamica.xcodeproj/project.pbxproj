@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F066674196F0DEF00CA7B8A /* Barack-Obama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F066667196F0DEF00CA7B8A /* Barack-Obama.jpg */; };
+		0F066675196F0DEF00CA7B8A /* bill-gates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F066668196F0DEF00CA7B8A /* bill-gates.jpg */; };
+		0F066676196F0DEF00CA7B8A /* Brad-Paisley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F066669196F0DEF00CA7B8A /* Brad-Paisley.jpg */; };
+		0F066677196F0DEF00CA7B8A /* Brad-Pitt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F06666A196F0DEF00CA7B8A /* Brad-Pitt.jpg */; };
+		0F066678196F0DEF00CA7B8A /* contacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F06666B196F0DEF00CA7B8A /* contacts.plist */; };
+		0F066679196F0DEF00CA7B8A /* evangeline-lilly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F06666C196F0DEF00CA7B8A /* evangeline-lilly.jpg */; };
+		0F06667A196F0DEF00CA7B8A /* halle-berry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F06666D196F0DEF00CA7B8A /* halle-berry.jpg */; };
+		0F06667B196F0DEF00CA7B8A /* Mila-Kunis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F06666E196F0DEF00CA7B8A /* Mila-Kunis.jpg */; };
+		0F06667C196F0DEF00CA7B8A /* miranda-lambert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F06666F196F0DEF00CA7B8A /* miranda-lambert.jpg */; };
+		0F06667D196F0DEF00CA7B8A /* Patricia-Beck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F066670196F0DEF00CA7B8A /* Patricia-Beck.jpg */; };
+		0F06667E196F0DEF00CA7B8A /* sara_evans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F066671196F0DEF00CA7B8A /* sara_evans.jpg */; };
+		0F06667F196F0DEF00CA7B8A /* steve_jobs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F066672196F0DEF00CA7B8A /* steve_jobs.jpg */; };
+		0F066680196F0DEF00CA7B8A /* taylor-swift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F066673196F0DEF00CA7B8A /* taylor-swift.jpg */; };
+		0F066683196F143400CA7B8A /* RCSCustonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F066682196F143400CA7B8A /* RCSCustonCell.m */; };
 		F21350A3196DBBB500D51271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21350A2196DBBB500D51271 /* Foundation.framework */; };
 		F21350A5196DBBB500D51271 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21350A4196DBBB500D51271 /* CoreGraphics.framework */; };
 		F21350A7196DBBB500D51271 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21350A6196DBBB500D51271 /* UIKit.framework */; };
@@ -36,6 +50,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F066667196F0DEF00CA7B8A /* Barack-Obama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barack-Obama.jpg"; sourceTree = "<group>"; };
+		0F066668196F0DEF00CA7B8A /* bill-gates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bill-gates.jpg"; sourceTree = "<group>"; };
+		0F066669196F0DEF00CA7B8A /* Brad-Paisley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brad-Paisley.jpg"; sourceTree = "<group>"; };
+		0F06666A196F0DEF00CA7B8A /* Brad-Pitt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brad-Pitt.jpg"; sourceTree = "<group>"; };
+		0F06666B196F0DEF00CA7B8A /* contacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = contacts.plist; sourceTree = "<group>"; };
+		0F06666C196F0DEF00CA7B8A /* evangeline-lilly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "evangeline-lilly.jpg"; sourceTree = "<group>"; };
+		0F06666D196F0DEF00CA7B8A /* halle-berry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "halle-berry.jpg"; sourceTree = "<group>"; };
+		0F06666E196F0DEF00CA7B8A /* Mila-Kunis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mila-Kunis.jpg"; sourceTree = "<group>"; };
+		0F06666F196F0DEF00CA7B8A /* miranda-lambert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "miranda-lambert.jpg"; sourceTree = "<group>"; };
+		0F066670196F0DEF00CA7B8A /* Patricia-Beck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Patricia-Beck.jpg"; sourceTree = "<group>"; };
+		0F066671196F0DEF00CA7B8A /* sara_evans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sara_evans.jpg; sourceTree = "<group>"; };
+		0F066672196F0DEF00CA7B8A /* steve_jobs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steve_jobs.jpg; sourceTree = "<group>"; };
+		0F066673196F0DEF00CA7B8A /* taylor-swift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "taylor-swift.jpg"; sourceTree = "<group>"; };
+		0F066681196F143400CA7B8A /* RCSCustonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSCustonCell.h; sourceTree = "<group>"; };
+		0F066682196F143400CA7B8A /* RCSCustonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSCustonCell.m; sourceTree = "<group>"; };
 		F213509F196DBBB500D51271 /* TableViewController_celulas_dinamica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewController_celulas_dinamica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21350A2196DBBB500D51271 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F21350A4196DBBB500D51271 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -83,12 +112,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F066666196F0DCC00CA7B8A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F066667196F0DEF00CA7B8A /* Barack-Obama.jpg */,
+				0F066668196F0DEF00CA7B8A /* bill-gates.jpg */,
+				0F066669196F0DEF00CA7B8A /* Brad-Paisley.jpg */,
+				0F06666A196F0DEF00CA7B8A /* Brad-Pitt.jpg */,
+				0F06666B196F0DEF00CA7B8A /* contacts.plist */,
+				0F06666C196F0DEF00CA7B8A /* evangeline-lilly.jpg */,
+				0F06666D196F0DEF00CA7B8A /* halle-berry.jpg */,
+				0F06666E196F0DEF00CA7B8A /* Mila-Kunis.jpg */,
+				0F06666F196F0DEF00CA7B8A /* miranda-lambert.jpg */,
+				0F066670196F0DEF00CA7B8A /* Patricia-Beck.jpg */,
+				0F066671196F0DEF00CA7B8A /* sara_evans.jpg */,
+				0F066672196F0DEF00CA7B8A /* steve_jobs.jpg */,
+				0F066673196F0DEF00CA7B8A /* taylor-swift.jpg */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
 		F2135096196DBBB500D51271 = {
 			isa = PBXGroup;
 			children = (
+				0F066666196F0DCC00CA7B8A /* resources */,
 				F21350D1196DBEB900D51271 /* RCSViewController.h */,
 				F21350D2196DBEB900D51271 /* RCSViewController.m */,
 				F21350D3196DBEB900D51271 /* RCSViewController.xib */,
+				0F066681196F143400CA7B8A /* RCSCustonCell.h */,
+				0F066682196F143400CA7B8A /* RCSCustonCell.m */,
 				F21350A8196DBBB500D51271 /* TableViewController_celulas_dinamica */,
 				F21350C1196DBBB500D51271 /* TableViewController_celulas_dinamicaTests */,
 				F21350A1196DBBB500D51271 /* Frameworks */,
@@ -234,11 +286,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F06667F196F0DEF00CA7B8A /* steve_jobs.jpg in Resources */,
+				0F06667E196F0DEF00CA7B8A /* sara_evans.jpg in Resources */,
+				0F066674196F0DEF00CA7B8A /* Barack-Obama.jpg in Resources */,
 				F21350D7196DD19C00D51271 /* f_1.png in Resources */,
 				F21350D5196DBEB900D51271 /* RCSViewController.xib in Resources */,
 				F21350AD196DBBB500D51271 /* InfoPlist.strings in Resources */,
+				0F066676196F0DEF00CA7B8A /* Brad-Paisley.jpg in Resources */,
+				0F06667A196F0DEF00CA7B8A /* halle-berry.jpg in Resources */,
+				0F06667D196F0DEF00CA7B8A /* Patricia-Beck.jpg in Resources */,
+				0F066677196F0DEF00CA7B8A /* Brad-Pitt.jpg in Resources */,
+				0F066679196F0DEF00CA7B8A /* evangeline-lilly.jpg in Resources */,
+				0F06667C196F0DEF00CA7B8A /* miranda-lambert.jpg in Resources */,
 				F21350D9196DD3CB00D51271 /* f_2.png in Resources */,
 				F21350B5196DBBB500D51271 /* Images.xcassets in Resources */,
+				0F066675196F0DEF00CA7B8A /* bill-gates.jpg in Resources */,
+				0F066678196F0DEF00CA7B8A /* contacts.plist in Resources */,
+				0F066680196F0DEF00CA7B8A /* taylor-swift.jpg in Resources */,
+				0F06667B196F0DEF00CA7B8A /* Mila-Kunis.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +324,7 @@
 			files = (
 				F21350D4196DBEB900D51271 /* RCSViewController.m in Sources */,
 				F21350AF196DBBB500D51271 /* main.m in Sources */,
+				0F066683196F143400CA7B8A /* RCSCustonCell.m in Sources */,
 				F21350B3196DBBB500D51271 /* RCSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +522,7 @@
 				F21350CD196DBBB500D51271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F21350CE196DBBB500D51271 /* Build configuration list for PBXNativeTarget "TableViewController_celulas_dinamicaTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +531,7 @@
 				F21350D0196DBBB500D51271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
