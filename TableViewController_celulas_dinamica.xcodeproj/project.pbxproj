@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F21350A3196DBBB500D51271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21350A2196DBBB500D51271 /* Foundation.framework */; };
+		F21350A5196DBBB500D51271 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21350A4196DBBB500D51271 /* CoreGraphics.framework */; };
+		F21350A7196DBBB500D51271 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21350A6196DBBB500D51271 /* UIKit.framework */; };
+		F21350AD196DBBB500D51271 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F21350AB196DBBB500D51271 /* InfoPlist.strings */; };
+		F21350AF196DBBB500D51271 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F21350AE196DBBB500D51271 /* main.m */; };
+		F21350B3196DBBB500D51271 /* RCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F21350B2196DBBB500D51271 /* RCSAppDelegate.m */; };
+		F21350B5196DBBB500D51271 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21350B4196DBBB500D51271 /* Images.xcassets */; };
+		F21350BC196DBBB500D51271 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21350BB196DBBB500D51271 /* XCTest.framework */; };
+		F21350BD196DBBB500D51271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21350A2196DBBB500D51271 /* Foundation.framework */; };
+		F21350BE196DBBB500D51271 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21350A6196DBBB500D51271 /* UIKit.framework */; };
+		F21350C6196DBBB500D51271 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F21350C4196DBBB500D51271 /* InfoPlist.strings */; };
+		F21350C8196DBBB500D51271 /* TableViewController_celulas_dinamicaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21350C7196DBBB500D51271 /* TableViewController_celulas_dinamicaTests.m */; };
+		F21350D4196DBEB900D51271 /* RCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21350D2196DBEB900D51271 /* RCSViewController.m */; };
+		F21350D5196DBEB900D51271 /* RCSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21350D3196DBEB900D51271 /* RCSViewController.xib */; };
+		F21350D7196DD19C00D51271 /* f_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F21350D6196DD19C00D51271 /* f_1.png */; };
+		F21350D9196DD3CB00D51271 /* f_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F21350D8196DD3CB00D51271 /* f_2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F21350BF196DBBB500D51271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2135097196DBBB500D51271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F213509E196DBBB500D51271;
+			remoteInfo = TableViewController_celulas_dinamica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F213509F196DBBB500D51271 /* TableViewController_celulas_dinamica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewController_celulas_dinamica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21350A2196DBBB500D51271 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F21350A4196DBBB500D51271 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F21350A6196DBBB500D51271 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F21350AA196DBBB500D51271 /* TableViewController_celulas_dinamica-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewController_celulas_dinamica-Info.plist"; sourceTree = "<group>"; };
+		F21350AC196DBBB500D51271 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F21350AE196DBBB500D51271 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F21350B0196DBBB500D51271 /* TableViewController_celulas_dinamica-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewController_celulas_dinamica-Prefix.pch"; sourceTree = "<group>"; };
+		F21350B1196DBBB500D51271 /* RCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCSAppDelegate.h; sourceTree = "<group>"; };
+		F21350B2196DBBB500D51271 /* RCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCSAppDelegate.m; sourceTree = "<group>"; };
+		F21350B4196DBBB500D51271 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F21350BA196DBBB500D51271 /* TableViewController_celulas_dinamicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewController_celulas_dinamicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21350BB196DBBB500D51271 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F21350C3196DBBB500D51271 /* TableViewController_celulas_dinamicaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewController_celulas_dinamicaTests-Info.plist"; sourceTree = "<group>"; };
+		F21350C5196DBBB500D51271 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F21350C7196DBBB500D51271 /* TableViewController_celulas_dinamicaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController_celulas_dinamicaTests.m; sourceTree = "<group>"; };
+		F21350D1196DBEB900D51271 /* RCSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSViewController.h; sourceTree = "<group>"; };
+		F21350D2196DBEB900D51271 /* RCSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSViewController.m; sourceTree = "<group>"; };
+		F21350D3196DBEB900D51271 /* RCSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCSViewController.xib; sourceTree = "<group>"; };
+		F21350D6196DD19C00D51271 /* f_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f_1.png; sourceTree = "<group>"; };
+		F21350D8196DD3CB00D51271 /* f_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f_2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F213509C196DBBB500D51271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21350A5196DBBB500D51271 /* CoreGraphics.framework in Frameworks */,
+				F21350A7196DBBB500D51271 /* UIKit.framework in Frameworks */,
+				F21350A3196DBBB500D51271 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21350B7196DBBB500D51271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21350BC196DBBB500D51271 /* XCTest.framework in Frameworks */,
+				F21350BE196DBBB500D51271 /* UIKit.framework in Frameworks */,
+				F21350BD196DBBB500D51271 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2135096196DBBB500D51271 = {
+			isa = PBXGroup;
+			children = (
+				F21350D1196DBEB900D51271 /* RCSViewController.h */,
+				F21350D2196DBEB900D51271 /* RCSViewController.m */,
+				F21350D3196DBEB900D51271 /* RCSViewController.xib */,
+				F21350A8196DBBB500D51271 /* TableViewController_celulas_dinamica */,
+				F21350C1196DBBB500D51271 /* TableViewController_celulas_dinamicaTests */,
+				F21350A1196DBBB500D51271 /* Frameworks */,
+				F21350A0196DBBB500D51271 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F21350A0196DBBB500D51271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F213509F196DBBB500D51271 /* TableViewController_celulas_dinamica.app */,
+				F21350BA196DBBB500D51271 /* TableViewController_celulas_dinamicaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21350A1196DBBB500D51271 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21350A2196DBBB500D51271 /* Foundation.framework */,
+				F21350A4196DBBB500D51271 /* CoreGraphics.framework */,
+				F21350A6196DBBB500D51271 /* UIKit.framework */,
+				F21350BB196DBBB500D51271 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F21350A8196DBBB500D51271 /* TableViewController_celulas_dinamica */ = {
+			isa = PBXGroup;
+			children = (
+				F21350B1196DBBB500D51271 /* RCSAppDelegate.h */,
+				F21350B2196DBBB500D51271 /* RCSAppDelegate.m */,
+				F21350D8196DD3CB00D51271 /* f_2.png */,
+				F21350D6196DD19C00D51271 /* f_1.png */,
+				F21350B4196DBBB500D51271 /* Images.xcassets */,
+				F21350A9196DBBB500D51271 /* Supporting Files */,
+			);
+			path = TableViewController_celulas_dinamica;
+			sourceTree = "<group>";
+		};
+		F21350A9196DBBB500D51271 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F21350AA196DBBB500D51271 /* TableViewController_celulas_dinamica-Info.plist */,
+				F21350AB196DBBB500D51271 /* InfoPlist.strings */,
+				F21350AE196DBBB500D51271 /* main.m */,
+				F21350B0196DBBB500D51271 /* TableViewController_celulas_dinamica-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F21350C1196DBBB500D51271 /* TableViewController_celulas_dinamicaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F21350C7196DBBB500D51271 /* TableViewController_celulas_dinamicaTests.m */,
+				F21350C2196DBBB500D51271 /* Supporting Files */,
+			);
+			path = TableViewController_celulas_dinamicaTests;
+			sourceTree = "<group>";
+		};
+		F21350C2196DBBB500D51271 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F21350C3196DBBB500D51271 /* TableViewController_celulas_dinamicaTests-Info.plist */,
+				F21350C4196DBBB500D51271 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F213509E196DBBB500D51271 /* TableViewController_celulas_dinamica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21350CB196DBBB500D51271 /* Build configuration list for PBXNativeTarget "TableViewController_celulas_dinamica" */;
+			buildPhases = (
+				F213509B196DBBB500D51271 /* Sources */,
+				F213509C196DBBB500D51271 /* Frameworks */,
+				F213509D196DBBB500D51271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewController_celulas_dinamica;
+			productName = TableViewController_celulas_dinamica;
+			productReference = F213509F196DBBB500D51271 /* TableViewController_celulas_dinamica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F21350B9196DBBB500D51271 /* TableViewController_celulas_dinamicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21350CE196DBBB500D51271 /* Build configuration list for PBXNativeTarget "TableViewController_celulas_dinamicaTests" */;
+			buildPhases = (
+				F21350B6196DBBB500D51271 /* Sources */,
+				F21350B7196DBBB500D51271 /* Frameworks */,
+				F21350B8196DBBB500D51271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F21350C0196DBBB500D51271 /* PBXTargetDependency */,
+			);
+			name = TableViewController_celulas_dinamicaTests;
+			productName = TableViewController_celulas_dinamicaTests;
+			productReference = F21350BA196DBBB500D51271 /* TableViewController_celulas_dinamicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2135097196DBBB500D51271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RCS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BEPiD;
+				TargetAttributes = {
+					F21350B9196DBBB500D51271 = {
+						TestTargetID = F213509E196DBBB500D51271;
+					};
+				};
+			};
+			buildConfigurationList = F213509A196DBBB500D51271 /* Build configuration list for PBXProject "TableViewController_celulas_dinamica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2135096196DBBB500D51271;
+			productRefGroup = F21350A0196DBBB500D51271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F213509E196DBBB500D51271 /* TableViewController_celulas_dinamica */,
+				F21350B9196DBBB500D51271 /* TableViewController_celulas_dinamicaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F213509D196DBBB500D51271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21350D7196DD19C00D51271 /* f_1.png in Resources */,
+				F21350D5196DBEB900D51271 /* RCSViewController.xib in Resources */,
+				F21350AD196DBBB500D51271 /* InfoPlist.strings in Resources */,
+				F21350D9196DD3CB00D51271 /* f_2.png in Resources */,
+				F21350B5196DBBB500D51271 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21350B8196DBBB500D51271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21350C6196DBBB500D51271 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F213509B196DBBB500D51271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21350D4196DBEB900D51271 /* RCSViewController.m in Sources */,
+				F21350AF196DBBB500D51271 /* main.m in Sources */,
+				F21350B3196DBBB500D51271 /* RCSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21350B6196DBBB500D51271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21350C8196DBBB500D51271 /* TableViewController_celulas_dinamicaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F21350C0196DBBB500D51271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F213509E196DBBB500D51271 /* TableViewController_celulas_dinamica */;
+			targetProxy = F21350BF196DBBB500D51271 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F21350AB196DBBB500D51271 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21350AC196DBBB500D51271 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F21350C4196DBBB500D51271 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21350C5196DBBB500D51271 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F21350C9196DBBB500D51271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F21350CA196DBBB500D51271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F21350CC196DBBB500D51271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewController_celulas_dinamica/TableViewController_celulas_dinamica-Prefix.pch";
+				INFOPLIST_FILE = "TableViewController_celulas_dinamica/TableViewController_celulas_dinamica-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F21350CD196DBBB500D51271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewController_celulas_dinamica/TableViewController_celulas_dinamica-Prefix.pch";
+				INFOPLIST_FILE = "TableViewController_celulas_dinamica/TableViewController_celulas_dinamica-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F21350CF196DBBB500D51271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewController_celulas_dinamica.app/TableViewController_celulas_dinamica";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewController_celulas_dinamica/TableViewController_celulas_dinamica-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TableViewController_celulas_dinamicaTests/TableViewController_celulas_dinamicaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F21350D0196DBBB500D51271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewController_celulas_dinamica.app/TableViewController_celulas_dinamica";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewController_celulas_dinamica/TableViewController_celulas_dinamica-Prefix.pch";
+				INFOPLIST_FILE = "TableViewController_celulas_dinamicaTests/TableViewController_celulas_dinamicaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F213509A196DBBB500D51271 /* Build configuration list for PBXProject "TableViewController_celulas_dinamica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21350C9196DBBB500D51271 /* Debug */,
+				F21350CA196DBBB500D51271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21350CB196DBBB500D51271 /* Build configuration list for PBXNativeTarget "TableViewController_celulas_dinamica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21350CC196DBBB500D51271 /* Debug */,
+				F21350CD196DBBB500D51271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F21350CE196DBBB500D51271 /* Build configuration list for PBXNativeTarget "TableViewController_celulas_dinamicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21350CF196DBBB500D51271 /* Debug */,
+				F21350D0196DBBB500D51271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2135097196DBBB500D51271 /* Project object */;
+}
